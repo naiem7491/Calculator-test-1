@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Radley:ital@0;1&family=Rajdhani:wght@300;400;500;600;700&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+
+.continer {
+  margin: auto;
+  max-width: 70%;
+}
+
+.continer-bg {
+  padding: 20px 5px;
+  border-radius: 10px;
+  width: 350px;
+  background: #000046;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #1CB5E0, #000046);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #1CB5E0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h6 {
+  padding: 0;
+  margin: 0;
+  font-size: 9px;
+  font-weight: 300;
+  color: #fffff0;
+  font-family: "Rajdhani", sans-serif;
+}
+
+h1 {
+  font-family: "Radley", serif;
+  color: #d4fcf5;
+  font-size: 48px;
+  font-weight: 500;
+  word-spacing: 10px;
+}
+
+.row {
+  margin: 8px 0;
+
+}
+
+.row input {
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  padding: 12px 0px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 30px;
+  width: 300px;
+}
+
+.button {
+  background: #74ebd5;
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);
+  background: linear-gradient(to right, #ACB6E5, #74ebd5);
+  padding: 20px;
+  align-items: center;
+  border-radius: 10px;
+  margin: 2px 3px;
+  cursor: pointer;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  width: 60px;
+}
+
+.button:hover {
+  background: #74ebd5;
+  background: -webkit-linear-gradient(to left, #ACB6E5, #74ebd5);
+  background: linear-gradient(to left, #ACB6E5, #74ebd5);
+
+}
